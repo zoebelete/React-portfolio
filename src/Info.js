@@ -5,9 +5,6 @@ function Info() {
   return (
     <div className="info">
       <div className="info_left pl-20 pt-30">
-        <p>
-          <h2 className="font-bold text-4xl">HIWOT BELETE</h2>
-        </p>
         <h1 className="text-2xl font-bold">Full Stack Developer</h1>
         <p className="text-base">
           I am Hiwot Belete. Am full stack developer graduated from university
