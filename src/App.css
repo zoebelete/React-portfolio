@@ -1,38 +1,47 @@
 .App {
   text-align: center;
 }
+/* footer {
+  /* display: flex; */
+/* background-color: rgb(23, 21, 34); */
+/* justify-content: space-evenly; */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .footer_left {
+  /* display: flex; */
+/* flex-direction: column; */
+/* color: whitesmoke; */
+/* text-align: start;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer_left > a {
+  text-decoration: none;
+  color: whitesmoke;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer_left > a :hover {
+  color: rgb(50, 71, 129);
+}
+.footer_middle {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
+  text-align: start;
 }
-
-.App-link {
-  color: #61dafb;
+.footer_middle > a {
+  text-decoration: none;
+  color: whitesmoke;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer_middle > a :hover {
+  color: rgb(63, 39, 199);
 }
+.footer_right {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  text-align: start;
+}
+.footer_right > a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.footer_right > a :hover {
+  color: rgb(46, 62, 153);
+} */

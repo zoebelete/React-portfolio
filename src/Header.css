@@ -1,0 +1,30 @@
+.header {
+  position: sticky;
+  scroll-behavior: smooth;
+  top: 0;
+  background-color: #ffd900;
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_left {
+  flex: 0.3;
+  padding-left: 5px;
+}
+.header_right > a {
+  text-decoration: none;
+  justify-content: center;
+}
+.header_right > a :hover {
+  color: white;
+}
+.header_right {
+  flex: 0.7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header_right > a {
+  display: flex;
+  color: black;
+}

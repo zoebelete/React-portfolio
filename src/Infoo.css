@@ -1,0 +1,75 @@
+.infoo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  grid-auto-columns: minmax(100px);
+  grid-column-gap: 10px;
+  margin-left: 60px;
+}
+
+.infoo_left > img {
+  width: 400px;
+  height: 300px;
+}
+.infoo_middle > img {
+  width: 400px;
+  height: 300px;
+}
+.infoo_right > img {
+  width: 400px;
+  height: 300px;
+}
+.infoo_left {
+  text-align: start;
+  padding-top: 100px;
+}
+
+.infoo_left > button {
+  background-color: rgb(185, 175, 175);
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  color: rgb(104, 99, 99);
+  border-radius: 5px;
+  border: none;
+}
+.button {
+  background-color: rgb(185, 175, 175);
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  color: rgb(104, 99, 99);
+  border-radius: 5px;
+  border: none;
+}
+.infoo_middle {
+  padding-top: 100px;
+  text-align: start;
+}
+
+.infoo_middle > button {
+  background-color: rgb(190, 183, 183);
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  color: rgb(104, 99, 99);
+  border-radius: 5px;
+  border: none;
+}
+.infoo_right {
+  text-align: start;
+  padding-top: 100px;
+}
+
+.infoo_right > button {
+  background-color: rgb(180, 174, 174);
+  width: 100px;
+  height: 40px;
+  font-size: large;
+  color: rgb(117, 112, 112);
+  border-radius: 5px;
+  border: none;
+}
+button :hover {
+  color: black;
+}
