@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
   return (
     <div>
-      <p className="text-6xl pt-60 font-bold font-serif animate-pulse">
+      <p className="text-6xl pt-20 font-bold font-serif animate-pulse">
         HIWOT BELETE
       </p>
       <h1 className="text-3xl">Full stack developer</h1>

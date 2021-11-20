@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <section className="flex flex-col h-screen bg-gradient-to-r from-yellow-400 via-red-400 to-pink-400  ">
+      <section className="flex flex-col  bg-gradient-to-r from-yellow-400 via-red-400 to-pink-400 h-4/6">
         <Home />
       </section>
 
