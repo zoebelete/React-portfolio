@@ -1,8 +1,7 @@
 .header {
-  position: sticky;
   scroll-behavior: smooth;
   top: 0;
-  background-color: #ffd900;
+  /* background-color: #2b2844; */
   flex: 1;
   display: flex;
   justify-content: space-evenly;
@@ -16,7 +15,7 @@
   justify-content: center;
 }
 .header_right > a :hover {
-  color: white;
+  color: rgb(255, 254, 254);
 }
 .header_right {
   flex: 0.7;
@@ -26,5 +25,5 @@
 }
 .header_right > a {
   display: flex;
-  color: black;
+  color: rgb(196, 183, 183);
 }

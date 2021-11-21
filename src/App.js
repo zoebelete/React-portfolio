@@ -12,31 +12,35 @@ import Home from "./Home";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <section className="flex flex-col  bg-gradient-to-r from-yellow-400 via-red-400 to-pink-400 h-4/6">
+      <section className="bg-gradient-to-b from-gray-900 via-gray bg-gray-900 to-gray-800">
+        <Header />
+      </section>
+      <section className="flex flex-col  bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 h-screen ">
         <Home />
       </section>
 
-      <section id="about">
+      <section className="bg-gray-800 h-screen" id="about">
         <Info />
       </section>
 
-      <section>
-        <h1 className=" font-bold pt-20 text-4xl">Projects</h1>
+      <section className="bg-gray-800">
+        <h1 className=" font-bold  text-4xl text-gray-300">Projects</h1>
       </section>
-      <section id="projects">
+      <section className="bg-gray-800" id="projects">
         <Infoo />
       </section>
-      <section>
-        <h1 className=" font-bold pt-10 pb-0 text-4xl">Technologies</h1>
+      <section className="bg-gray-800">
+        <h1 className=" font-bold pt-10 pb-0 text-4xl text-gray-300">
+          Technologies
+        </h1>
       </section>
 
-      <section id="technologies">
+      <section className="bg-gray-800 " id="technologies">
         <Infotwo />
       </section>
 
-      <section class="pt-20" id="contact">
-        <footer class="pt-20 flex justify-evenly bg-gray-900 pb-10">
+      <section class="" id="contact">
+        <footer class="flex justify-evenly bg-gray-900 pb-10">
           <a className="text-white" href="https://github.com/zoebelete">
             {" "}
             <GitHubIcon />{" "}

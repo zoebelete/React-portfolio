@@ -10,7 +10,7 @@ function Infotwo() {
             <div class="font-bold text-xl mb-2 ">UI/UX</div>
             <p class="text-gray-700 text-base">
               <ul>
-                <li>Figure</li>
+                <li>Figma</li>
                 <li> Material UI</li>
               </ul>
             </p>

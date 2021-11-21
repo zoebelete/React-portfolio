@@ -13,10 +13,12 @@ function Infoo() {
             alt="Mountain"
           />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Linkedin clone</div>
-            <p class="text-gray-700 text-base">
-              linkedin clone website using react.js, redux, material ui,
-              firebase database and run perfectly.
+            <div class="font-bold text-xl mb-2 text-gray-300">
+              Linkedin clone
+            </div>
+            <p class="text-gray-400 text-base">
+              linkedin clone website using <b>react.js</b>, <b>redux</b>,{" "}
+              <b>material ui</b>,<b>firebase database</b> and run perfectly.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2">
@@ -37,10 +39,10 @@ function Infoo() {
             alt="River"
           />
           <div class="px-6 py-4">
-            <div class="font-bold text-xl mb-2">Gmail clone</div>
-            <p class="text-gray-700 text-base">
-              Gmail clone website using react.js, redux, material ui, firebase
-              database and run perfectly.
+            <div class="font-bold text-xl mb-2 text-gray-300">Gmail clone</div>
+            <p class="text-gray-400 text-base">
+              Gmail clone website using <b>react.js</b>, <b>redux</b>,{" "}
+              <b>material ui</b>,<b>firebase database</b> and run perfectly.
             </p>
           </div>
           <div class="px-6 pt-4 pb-2">
