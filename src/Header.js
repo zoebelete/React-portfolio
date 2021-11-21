@@ -7,7 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const Header = () => {
   return (
     <div className="header h-20 sm:text-justify ">
-      <div className="header_left flex sm:overflow-hidden">
+      <div className="header_left flex overflow-hidden">
         <img
           className="h-20 pl-5"
           src="https://cdn4.vectorstock.com/i/1000x1000/74/03/hb-logo-monogram-emblem-style-with-crown-shape-vector-31117403.jpg"
