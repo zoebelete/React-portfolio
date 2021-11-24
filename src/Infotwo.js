@@ -4,7 +4,6 @@ import "./Infotwo.css";
 function Infotwo() {
   return (
     <div className="flex-col relative flex justify-center items-center">
-      <h1 className="absolute bottom-64 text-white text-5xl">Technologies</h1>
       <div className="infotwo flex justify-evenly">
         <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-20">
           <div class="rounded overflow-hidden  md:shadow-lg bg-gray-200 ">

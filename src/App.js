@@ -11,7 +11,7 @@ import Home from "./Home";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-800">
       <section className="bg-gradient-to-b from-gray-900 via-gray bg-gray-900 to-gray-800">
         <Header />
       </section>
@@ -29,14 +29,16 @@ function App() {
       <section className="bg-gray-800" id="projects">
         <Infoo />
       </section>
-
-      <section className="bg-gray-800 " id="technologies">
+      <section className="bg-gray-800">
+        <h1 className=" font-bold  text-4xl text-gray-300">Technologies</h1>
+      </section>
+      <section className="bg-gray-800" id="projects">
         <Infotwo />
       </section>
 
-      <section class="" id="contact">
-        <footer class="flex justify-evenly bg-gray-900 pb-10">
-          <a className="text-white" href="https://github.com/zoebelete">
+      <section className="mt-16" id="contact">
+        <footer class="flex justify-evenly  bg-gray-900 pb-10">
+          <a className="text-white" href="https://github.com/zoebelete mt-10">
             {" "}
             <GitHubIcon />{" "}
           </a>
