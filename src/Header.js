@@ -9,11 +9,13 @@ const Header = () => {
     <div className="header h-20 sm:text-justify ">
       <div className="header_left flex overflow-hidden">
         <img
-          className="h-20 pl-5"
+          className="h-20 pl-5 hidden sm:inline-flex"
           src="https://cdn4.vectorstock.com/i/1000x1000/74/03/hb-logo-monogram-emblem-style-with-crown-shape-vector-31117403.jpg"
           alt=""
         />
-        <h1 class="font-bold pt-7 text-2xl text-gray-400">Portfolio</h1>
+        <h1 class="font-bold pt-7 text-2xl text-gray-400 hidden sm:inline-flex">
+          Portfolio
+        </h1>
       </div>
 
       <div className="header_right justify-between font-semibold text-xl ">
@@ -29,11 +31,8 @@ const Header = () => {
           {" "}
           <h3>Technologies</h3>
         </a>
-        <a href="#contact">
-          {" "}
-          <h3>Contact me</h3>
-        </a>
-        <div className="mr-0">
+
+        <div className="mr-0 hidden sm:inline-flex">
           <a
             className="text-gray-400 hover:white"
             href="https://github.com/zoebelete"

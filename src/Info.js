@@ -3,8 +3,8 @@ import "./Info.css";
 
 function Info() {
   return (
-    <div className="info pt-40">
-      <div className="info_left pl-20 pt-30">
+    <div className="info ">
+      <div className="info_left ">
         {/* <p>
           <h2 className="font-bold text-4xl text-gray-400">HIWOT BELETE</h2>
         </p> */}
