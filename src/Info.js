@@ -6,17 +6,17 @@ function Info() {
     <div className="info ">
       <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-2 gap-5">
         <div class="rounded overflow-hidden ">
-          <div className="info_left mt-10">
+          <div className="info_left  justify-center ml-60">
             {/* <p>
-          <h2 className="font-bold text-4xl text-gray-400">HIWOT BELETE</h2>
-        </p> */}
+               <h2 className="font-bold text-4xl text-gray-400">HIWOT BELETE</h2>
+             </p> */}
             <h1 className="text-2xl font-bold text-white italic">
               Hello,Looking for a Developer?
             </h1>
             <p className=" text-gray-400 text-xl mt-5">
-              Full stack developer graduated from university
+              Full stack developer graduated from university of Gondar
               <br />
-              of Gondar recently in information system with a great GPA
+              recently in information system with a great GPA of 3.3
               <br />
               that i worked hard for having lots of experience in this field.
             </p>
@@ -32,12 +32,12 @@ function Info() {
         <div class="rounded overflow-hidden mx-24 hidden sm:inline-flex md:inline-flex justify-center items-center">
           <div className="text-gray-400 flex-grow">
             <div className=" ">
-              <img
+              {/* <img
                 class="h-96 flex justify-center items-center"
                 src="https://i.ibb.co/mbrVPGB/20210813-165527-removebg-preview.png"
                 alt=""
                 height="500"
-              />
+              /> */}
             </div>
           </div>
         </div>

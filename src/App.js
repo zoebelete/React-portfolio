@@ -15,7 +15,7 @@ function App() {
       <section className="bg-gradient-to-b from-gray-900 via-gray bg-gray-900 to-gray-800">
         <Header />
       </section>
-      <section className="flex flex-col  bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900 h-screen ">
+      <section className="flex flex-col  bg-gray-800 h-screen ">
         <Home />
       </section>
 
@@ -36,22 +36,19 @@ function App() {
         <Infotwo />
       </section>
 
-      <section className="mt-16" id="contact">
-        <footer class="flex justify-evenly  bg-gray-900 pb-10">
+      <section className="" id="contact">
+        <footer class="flex h-10 bg-gray-900 justify-center ">
           <a className="text-white" href="https://github.com/zoebelete mt-10">
-            {" "}
-            <GitHubIcon />{" "}
+            <GitHubIcon />
           </a>
           <a
             className="text-white"
             href="https://www.linkedin.com/in/hiwot-belete-37909a225/"
           >
-            {" "}
-            <LinkedInIcon />{" "}
+            <LinkedInIcon />
           </a>
           <a className="text-white" href="https://twitter.com/hiwotbelete14">
-            {" "}
-            <TwitterIcon />{" "}
+            <TwitterIcon />
           </a>
         </footer>
       </section>
