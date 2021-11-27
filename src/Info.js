@@ -3,17 +3,17 @@ import "./Info.css";
 
 function Info() {
   return (
-    <div className="info ">
-      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-2 gap-5">
+    <div className=" ">
+      <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 ">
         <div class="rounded overflow-hidden ">
-          <div className="info_left  justify-center ml-60">
+          <div className="flex items-center flex-col  justify-center">
             {/* <p>
                <h2 className="font-bold text-4xl text-gray-400">HIWOT BELETE</h2>
              </p> */}
-            <h1 className="text-2xl font-bold text-white italic">
+            <h1 className="text-6xl font-bold text-white italic">
               Hello,Looking for a Developer?
             </h1>
-            <p className=" text-gray-400 text-xl mt-5">
+            <p className=" text-gray-400 text-3xl mt-5">
               Full stack developer graduated from university of Gondar
               <br />
               recently in information system with a great GPA of 3.3

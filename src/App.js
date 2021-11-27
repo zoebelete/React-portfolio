@@ -19,14 +19,14 @@ function App() {
         <Home />
       </section>
 
-      <section className="bg-gray-800 h-screen" id="about">
+      <section className="bg-gray-800 h-96" id="about">
         <Info />
       </section>
 
-      <section className="bg-gray-800">
-        <h1 className=" font-bold  text-4xl text-gray-300">Projects</h1>
-      </section>
       <section className="bg-gray-800" id="projects">
+        <section className="bg-gray-800 ">
+          <h1 className=" font-bold  text-4xl  text-gray-300">Projects</h1>
+        </section>
         <Infoo />
       </section>
       <section className="bg-gray-800">

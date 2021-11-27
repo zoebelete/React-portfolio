@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Infoo() {
   return (
-    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
+    <div class="p-10  grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-5">
       <div class="rounded overflow-hidden shadow-lg">
         <img
           class="w-full h-96"
@@ -54,6 +54,32 @@ function Infoo() {
           </span>{" "}
           <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
             <a href="https://zoe-linkedin.netlify.app">View website</a>{" "}
+          </span>{" "}
+        </div>
+      </div>
+
+      <div class="rounded overflow-hidden shadow-lg">
+        <img
+          class="w-full h-96"
+          src="https://i.ibb.co/sQ2X6Cs/ecommerce.png"
+          alt="gmail clone"
+        />
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2 text-gray-300">E-commerce </div>
+          <p class="text-gray-400 text-base">
+            This is a E-commerce website project built React, Material UI.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          {" "}
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            {" "}
+            <a href="https://github.com/zoebelete/e-commerce">
+              <GitHubIcon />{" "}
+            </a>{" "}
+          </span>{" "}
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            <a href="https://ecommerce-hiwot.netlify.app/">View website</a>{" "}
           </span>{" "}
         </div>
       </div>
