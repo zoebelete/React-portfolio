@@ -32,7 +32,7 @@ function App() {
       <section className="bg-gray-800">
         <h1 className=" font-bold  text-4xl text-gray-300">Technologies</h1>
       </section>
-      <section className="bg-gray-800" id="projects">
+      <section className="bg-gray-800" id="technologies">
         <Infotwo />
       </section>
 
